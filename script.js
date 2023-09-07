@@ -1,17 +1,3 @@
-// function convertToFar() {
-//     const celsiusInput = document.getElementById("celsiusInput").value;
-//     const result = document.getElementById("result");
-
-//     if (!celsiusInput) {
-//         result.innerText = "Please enter a temperature in Celsius.";
-//         return;
-//     }
-
-//     const celsius = parseFloat(celsiusInput);
-//     const fahrenheit = (celsius * 9/5) + 32;
-
-//     result.innerText = `${celsius}°C is equal to ${fahrenheit.toFixed(2)}°F.`;
-// }
 const celciusEl = document.getElementById("Celcius");
 const fahrenheitEl = document.getElementById("Fahrenheit");
 const kelvinEl = document.getElementById("Kelvin");
